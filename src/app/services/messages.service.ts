@@ -8,6 +8,8 @@ import { Moment } from '../Moment';
   providedIn: 'root'
 })
 export class MessagesService {
+  message: string = '';
+
 
   constructor() { }
 }
